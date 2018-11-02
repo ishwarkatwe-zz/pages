@@ -1,0 +1,71 @@
+{
+  "configVersion": 1,
+  "index": "https://ishwarkatwe.github.io/pages/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://ishwarkatwe.github.io/pages/favicon.ico",
+        "https://ishwarkatwe.github.io/pages/index.html",
+        "https://ishwarkatwe.github.io/pages/main.7fb1da3f99003b83cfd0.js",
+        "https://ishwarkatwe.github.io/pages/polyfills.d6c80b389a3c780d347c.js",
+        "https://ishwarkatwe.github.io/pages/runtime.ec2944dd8b20ec099bf3.js",
+        "https://ishwarkatwe.github.io/pages/styles.3ff695c00d717f2d2a11.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://ishwarkatwe.github.io/pages/assets/icons/icon-128x128.png",
+        "https://ishwarkatwe.github.io/pages/assets/icons/icon-144x144.png",
+        "https://ishwarkatwe.github.io/pages/assets/icons/icon-152x152.png",
+        "https://ishwarkatwe.github.io/pages/assets/icons/icon-192x192.png",
+        "https://ishwarkatwe.github.io/pages/assets/icons/icon-384x384.png",
+        "https://ishwarkatwe.github.io/pages/assets/icons/icon-512x512.png",
+        "https://ishwarkatwe.github.io/pages/assets/icons/icon-72x72.png",
+        "https://ishwarkatwe.github.io/pages/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://ishwarkatwe.github.io/pages/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://ishwarkatwe.github.io/pages/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://ishwarkatwe.github.io/pages/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://ishwarkatwe.github.io/pages/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://ishwarkatwe.github.io/pages/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://ishwarkatwe.github.io/pages/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://ishwarkatwe.github.io/pages/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://ishwarkatwe.github.io/pages/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://ishwarkatwe.github.io/pages/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://ishwarkatwe.github.io/pages/index.html": "6f7cf985f39bd815e386c7f61f00e540ade845bc",
+    "https://ishwarkatwe.github.io/pages/main.7fb1da3f99003b83cfd0.js": "0941b41e4f4041e52b59d9d6201afc2777da9b78",
+    "https://ishwarkatwe.github.io/pages/polyfills.d6c80b389a3c780d347c.js": "ef2035f0504b4f77eac510c33595c81a5d09e33f",
+    "https://ishwarkatwe.github.io/pages/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://ishwarkatwe.github.io/pages/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
